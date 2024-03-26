@@ -13,5 +13,21 @@ This project demonstrates a simple OpenGL application that continuously cycles t
 ### Requirements
 Before you begin, ensure you have met the following requirements:
 
-- You have installed a C++ compiler like GCC, Clang, or MSVC.
+- You have installed a C++ compiler (GCC, Clang, MSVC, etc.)
+- You have installed GLFW and GLAD libraries.
+
+## Polygonal Approximation of Circle
+
+This project showcases a simple OpenGL application that visualizes the approximation of a circle using regular polygons. As the program runs, it gradually increases the number of sides on the polygon, transitioning from a triangle to a shape that closely approximates a circle. The project uses GLFW for window management and GLAD for OpenGL function loading.
+
+### Features
+- Utilizes GLFW to create an OpenGL context and handle window operations.
+- Uses GLAD for managing OpenGL function pointers.
+- Implements vertex shader and fragment shader for basic shape rendering.
+- Dynamically increases the number of vertices to transition from an n-gon to a shape closely approximating a circle.
+
+### Requirements
+Before you begin, ensure you have met the following requirements:
+
+- You have installed a C++ compiler (GCC, Clang, MSVC, etc.)
 - You have installed GLFW and GLAD libraries.
